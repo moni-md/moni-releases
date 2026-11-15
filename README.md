@@ -12,6 +12,10 @@ brew install moni-md/tap/moni
 
 Moni keeps itself up to date after you install it.
 
+## Feedback
+
+Report a bug or suggest a feature in [Issues](https://github.com/moni-md/moni-releases/issues/new/choose). Issues are public; for anything you'd rather keep private, write to [hello@moni.md](mailto:hello@moni.md).
+
 ## About this repository
 
-This repository publishes Moni's releases. For questions and feedback, write to [hello@moni.md](mailto:hello@moni.md).
+This repository publishes Moni's releases.

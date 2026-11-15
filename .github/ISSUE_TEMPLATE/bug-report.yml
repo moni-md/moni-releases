@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in Moni doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Leave out the contents of your notes and anything else you'd rather keep private, or write to [hello@moni.md](mailto:hello@moni.md) instead.
+  - type: input
+    id: moni-version
+    attributes:
+      label: Moni version
+      description: Choose Moni > About Moni.
+      placeholder: "1.0.11"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: Choose Apple menu > About This Mac.
+      placeholder: "macOS 26.1"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a note.
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Add screenshots or a screen recording if they help.
+    validations:
+      required: true
