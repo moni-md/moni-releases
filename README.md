@@ -10,7 +10,7 @@ Get the DMG from the [latest release](https://github.com/moni-md/moni-releases/r
 brew install moni-md/tap/moni
 ```
 
-Moni runs on Macs with Apple silicon and macOS 13 or later, and keeps itself up to date.
+Moni keeps itself up to date after you install it.
 
 ## About this repository
 
